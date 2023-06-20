@@ -6,3 +6,4 @@ RUN apt-get -y install crossbuild-essential-armhf binutils-arm-none-eabi gcc-arm
 
 WORKDIR /data
 ENTRYPOINT [ "make" ]
+CMD [ "RASPPI=0" ]
